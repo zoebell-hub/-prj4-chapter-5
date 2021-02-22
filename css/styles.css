@@ -8,21 +8,23 @@ header,footer {
 	color: white;
 	text-align: center; 
 	padding: 20px;
+	border: 2px solid #522929;
 }
 
 h1 {
 	font-size: 50px; 
 }
 h2 {
-font-size: 30px; 	
+font-size: 20px; 	
 }
 
 li {
-display: inline-block;
-	background: darkseagreen; 
-	padding: 15px 30px;
-		margin-top: 20px; 
-	margin-bottom: 20px;
+    display: inline-block;
+    background: darkseagreen;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #522929;
 }
 nav {
 	text-align: center;
@@ -70,14 +72,14 @@ img {
 }
 
 .my-container {
-    color: #6B4D34;
-    background-color: rgba(225,225,151,0.40);
+    color: white;
+    background-color: rgba(143,188,143,0.50);
     border: 2px solid #522929;
     text-align: center;
     padding: 5.0em;
     visibility: visible;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 11px;
     font-style: italic;
     font-variant: normal;
     line-height: 37px;
@@ -99,7 +101,8 @@ body {
     line-height: 19px;
 }
 .images-line {
-	text-align: center
+    text-align: center;
+    width: 0px;
 	}
 .link {
     background-color: #FFFFFF;
