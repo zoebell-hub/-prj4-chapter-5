@@ -1,4 +1,65 @@
 @charset "UTF-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+* body {
+	font-family: 'Ubuntu', sans-serif;
+	}
+header,footer {
+	background: darkseagreen; 
+	color: white;
+	text-align: center; 
+	padding: 20px;
+}
+
+h1 {
+	font-size: 50px; 
+}
+h2 {
+font-size: 30px; 	
+}
+
+li {
+display: inline-block;
+	background: darkseagreen; 
+	padding: 15px 30px;
+		margin-top: 20px; 
+	margin-bottom: 20px;
+}
+nav {
+	text-align: center;
+}
+a {
+	color: #305030;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: white; 
+}
+.content.wrap {
+width: 900px;	
+margin-left: auto;
+margin-right: auto;
+}
+
+.section.border {
+	border:thick solid; 
+	padding: 20px;
+	margin: 20px 0; 
+	
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	padding: 15px;
+}
+
+
 .my-class {
     color: rgba(250,151,67,1.00);
     background-color: rgba(234,234,181,1.00);
@@ -7,13 +68,7 @@
     padding: 0.5em;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
-#my-id {
-    color: sandybrown;
-    background-color: rgba(245,245,220,0.50);
-    border: 1px solid brown;
-    text-align: center;
-    padding: 0.5em;
-}
+
 .my-container {
     color: #6B4D34;
     background-color: rgba(225,225,151,0.40);
@@ -43,18 +98,6 @@ body {
     text-align: center;
     line-height: 19px;
 }
-.creator {
-    background-color: #FFFFFF;
-    background-color: rgba(255,188,22,0.80);
-    width: 326px;
-    border-radius: 20px;
-    height: 20px;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    text-align: center;
-    line-height: 19px;
-    color: #FCFCFC;
-	}
 .images-line {
 	text-align: center
 	}
@@ -70,4 +113,7 @@ body {
     line-height: 19px;
     color: #FCFCFC;
 	}
-	}
+#Black Coffee {
+    margin: 20px;
+    background-color: rgba(255,188,22,1.00);
+}
